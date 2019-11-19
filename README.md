@@ -61,9 +61,10 @@ for make.exe, size.exe
 ### 2.6 Note for DFU upgrade of STM32F072
 > * you can use F072 IAP (USB DFU) to download the daplink firmware to HIC, see
  https://github.com/dotnfc/DFUCmd.
-> * WIN10 note: if 'STM32 Bootload' device attatched in the device management console, it must be replaced it with the STMDFU Driver.
+> * or try stm32cube programmer to load daplink fw (recommended):
+ https://blog.st.com/stlink-v3set-in-circuit-debugger-programmer/.
 
 <br />
 ---
-by dotnfc@163.com, 2018/09/01£¬ 2019/11/17
+by dotnfc@163.com, 2018/09/01Â£Â¬ 2019/11/17
 
