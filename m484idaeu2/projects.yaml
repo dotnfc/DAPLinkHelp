@@ -1,0 +1,5 @@
+projects:
+    stm32f072cb_arducleo_m484sidae2u_if:
+        - *module_if
+        - *module_hic_stm32f072cb
+        - records/board/arducleo_m484sidae2u.yaml
