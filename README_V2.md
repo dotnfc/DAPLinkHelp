@@ -4,11 +4,14 @@
 <br />
 # 在 Windows 上简化操作说明
 * 备齐 python3.x, keil mdk(argcc, armclang 就有了)，外补 gcc_arm
+
 * 从下面地址获取 gnu-make, cmake
 
- https://cmake.org/download/
- http://gnuwin32.sourceforge.net/packages/make.htm
- https://sourceforge.net/projects/getgnuwin32/files/
+```
+  https://cmake.org/download/
+  http://gnuwin32.sourceforge.net/packages/make.htm
+  https://sourceforge.net/projects/getgnuwin32/files/
+``` 
  
 * 设置命令行路径
 ```
