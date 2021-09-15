@@ -1,11 +1,13 @@
-at the root of DAPLink repo, run
+1. at the root of DAPLink repo, run
 
+```cpp
 progen generate -f projects.yaml -p lpc4322_hani_iot_if -t uvision
+```
 
-to get Keil MDK project to build, and test with the following 
+2. to get Keil MDK project to build, and test with the following 
 debug initialization script:
 
----8<--------8<--------8<--------8<--------8<--------8<--------
+```cpp
 
 /*----------------------------------------------------------------------------
   Setup()  configure PC & SP for RAM Debug
@@ -31,7 +33,8 @@ Setup();                                             // Setup for Running
 BS main
 g
 
----8<--------8<--------8<--------8<--------8<--------8<--------
+```
 
+---
 .NFC, 2021/09/15
 
